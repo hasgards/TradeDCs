@@ -1,0 +1,9 @@
+d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs.TEST\obj\Debug\TradeDCs.TEST.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs.TEST\bin\Debug\TradeDCs.TEST.dll
+d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs.TEST\bin\Debug\TradeDCs.TEST.pdb
+d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs.TEST\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs.TEST\bin\Debug\TradeDCs.dll
+d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs.TEST\bin\Debug\TradeDCs.pdb
+d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs.TEST\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs.TEST\obj\Debug\TradeDCs.TEST.dll
+d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs.TEST\obj\Debug\TradeDCs.TEST.pdb

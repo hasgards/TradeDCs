@@ -1,0 +1,5 @@
+d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs\obj\Debug\TradeDCs.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs\bin\Debug\TradeDCs.dll
+d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs\bin\Debug\TradeDCs.pdb
+d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs\obj\Debug\TradeDCs.dll
+d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs\obj\Debug\TradeDCs.pdb
