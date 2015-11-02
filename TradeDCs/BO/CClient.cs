@@ -48,6 +48,8 @@ namespace TradeDCs.BO
                 {
                     sumOfPriceOfTransactions -= transaction.RealMonneyExchanged.Amount;
                 }
+
+                //TODO : Calulating average and multiplicating buy the number of transactions is the same as summing all transactions ... 
                 return sumOfPriceOfTransactions;
             }
         }
