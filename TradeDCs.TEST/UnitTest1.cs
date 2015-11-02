@@ -98,8 +98,6 @@ namespace TradeDCs.TEST
             };
             CTransactionsInvoice transacExec7 = CServer.ExecuteTransaction(transac7);
             Assert.AreEqual(201.975M, transacExec7.TotalRealMonneyExchanged.Amount);
-            //Assert.AreEqual(202.116M, transacExec7.TotalRealMonneyExchanged.Amount);
-
 
             //8)
             CTransaction transac8 = new CTransaction
