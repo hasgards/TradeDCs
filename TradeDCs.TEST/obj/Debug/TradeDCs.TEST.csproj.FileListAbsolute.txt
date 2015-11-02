@@ -7,3 +7,12 @@ d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs.TEST\bin\Debug\TradeD
 d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs.TEST\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs.TEST\obj\Debug\TradeDCs.TEST.dll
 d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs.TEST\obj\Debug\TradeDCs.TEST.pdb
+D:\Documents\Projets\TradeDCs\TradeDCs\TradeDCs.TEST\bin\Debug\TradeDCs.TEST.dll
+D:\Documents\Projets\TradeDCs\TradeDCs\TradeDCs.TEST\bin\Debug\TradeDCs.TEST.pdb
+D:\Documents\Projets\TradeDCs\TradeDCs\TradeDCs.TEST\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Documents\Projets\TradeDCs\TradeDCs\TradeDCs.TEST\bin\Debug\TradeDCs.dll
+D:\Documents\Projets\TradeDCs\TradeDCs\TradeDCs.TEST\bin\Debug\TradeDCs.pdb
+D:\Documents\Projets\TradeDCs\TradeDCs\TradeDCs.TEST\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\Documents\Projets\TradeDCs\TradeDCs\TradeDCs.TEST\obj\Debug\TradeDCs.TEST.csprojResolveAssemblyReference.cache
+D:\Documents\Projets\TradeDCs\TradeDCs\TradeDCs.TEST\obj\Debug\TradeDCs.TEST.dll
+D:\Documents\Projets\TradeDCs\TradeDCs\TradeDCs.TEST\obj\Debug\TradeDCs.TEST.pdb

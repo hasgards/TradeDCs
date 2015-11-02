@@ -73,10 +73,10 @@ namespace TradeDCs.ServerSide
             }
 
             //Cases of combination of transactions (transaction splitted between two brookers)
-            for (int i = CTransaction.LOT_SIZE; i < MAX_AMOUNT_PER_TRANSACTION; i += CTransaction.LOT_SIZE)
+            for (int i = CTransaction.LOT_SIZE; i <= MAX_AMOUNT_PER_TRANSACTION; i += CTransaction.LOT_SIZE)
             {
                 //If max quanttity is not reached
-                if(pTransaction.Quantity - i < MAX_AMOUNT_PER_TRANSACTION && (pTransaction.Quantity - i) > 0)
+                if(pTransaction.Quantity - i <= MAX_AMOUNT_PER_TRANSACTION && (pTransaction.Quantity - i) > 0)
                 {
                     CTransaction transaction1 = new CTransaction(pTransaction);
                     CTransaction transaction2 = new CTransaction(pTransaction);
@@ -101,7 +101,7 @@ namespace TradeDCs.ServerSide
 
             foreach (CTransactionsInvoice combinaison in combinaisons)
             {
-                if ((combinaison.TotalRealMonneyExchnged < bestCombinaison.TotalRealMonneyExchnged /* && pTransaction.TransactionType == ETransactionType.BUYS) //smaller amount is better when buying
+                if ((combinaison.TotalRealMonneyExchanged < bestCombinaison.TotalRealMonneyExchanged /* && pTransaction.TransactionType == ETransactionType.BUYS) //smaller amount is better when buying
                     //TODO : Why does lower price is the most interesting when we sell Digicoint ?
                     || (combinaision.TotalRealMonneyExchnged > bestCombinaison.TotalRealMonneyExchnged && pTransaction.TransactionType == ETransactionType.SELLS*/)) //bigger amount is better when selling
                 {

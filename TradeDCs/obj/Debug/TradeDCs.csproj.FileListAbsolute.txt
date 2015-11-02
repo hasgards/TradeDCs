@@ -3,3 +3,8 @@ d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs\bin\Debug\TradeDCs.dl
 d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs\bin\Debug\TradeDCs.pdb
 d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs\obj\Debug\TradeDCs.dll
 d:\documents\visual studio 2015\Projects\TradeDCs\TradeDCs\obj\Debug\TradeDCs.pdb
+D:\Documents\Projets\TradeDCs\TradeDCs\TradeDCs\obj\Debug\TradeDCs.csprojResolveAssemblyReference.cache
+D:\Documents\Projets\TradeDCs\TradeDCs\TradeDCs\obj\Debug\TradeDCs.dll
+D:\Documents\Projets\TradeDCs\TradeDCs\TradeDCs\obj\Debug\TradeDCs.pdb
+D:\Documents\Projets\TradeDCs\TradeDCs\TradeDCs\bin\Debug\TradeDCs.dll
+D:\Documents\Projets\TradeDCs\TradeDCs\TradeDCs\bin\Debug\TradeDCs.pdb
