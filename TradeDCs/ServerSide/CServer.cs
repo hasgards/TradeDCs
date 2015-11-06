@@ -101,9 +101,9 @@ namespace TradeDCs.ServerSide
 
             foreach (CTransactionsInvoice combinaison in combinaisons)
             {
-                if ((combinaison.TotalRealMonneyExchanged < bestCombinaison.TotalRealMonneyExchanged /* && pTransaction.TransactionType == ETransactionType.BUYS) //smaller amount is better when buying
-                    //TODO : Why does lower price is the most interesting when we sell Digicoint ?
-                    || (combinaision.TotalRealMonneyExchnged > bestCombinaison.TotalRealMonneyExchnged && pTransaction.TransactionType == ETransactionType.SELLS*/)) //bigger amount is better when selling
+                //TODO : Why does lower price is the most interesting when we sell Digicoint ? here is code that get best transaction for clien
+                if ((combinaison.TotalRealMonneyExchanged < bestCombinaison.TotalRealMonneyExchanged && pTransaction.TransactionType == ETransactionType.BUYS) //smaller amount is better when buying
+                    || (combinaison.TotalRealMonneyExchanged > bestCombinaison.TotalRealMonneyExchanged && pTransaction.TransactionType == ETransactionType.SELLS)) //bigger amount is better when selling
                 {
                     //better combinaison than previous
                     bestCombinaison = combinaison;

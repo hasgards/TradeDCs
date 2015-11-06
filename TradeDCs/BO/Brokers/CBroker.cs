@@ -70,9 +70,9 @@ namespace TradeDCs.BO
                 case ETransactionType.BUYS:
                     return new CAmount((decimal)((pTransaction.Quantity * GetQuote()) * (1 + GetCommissionRate(pTransaction.Quantity))), ECurrencies.REAL_MONNEY);
                 default:
-                    return new CAmount((decimal)((pTransaction.Quantity * GetQuote()) * (1 + GetCommissionRate(pTransaction.Quantity))), ECurrencies.REAL_MONNEY);
-                    //TODO : Why does the broker gives his commission here instead of taking it ? What is right formula ?
-                    //return new CAmount((decimal)((pTransaction.Quantity * GetQuote()) * (1 - GetCommissionRate(pTransaction.Quantity))), ECurrencies.REAL_MONNEY);
+                    //TODO : Why does the broker gives his commission here instead of taking it ? Here is corrected version of the formula
+                    //return new CAmount((decimal)((pTransaction.Quantity * GetQuote()) * (1 + GetCommissionRate(pTransaction.Quantity))), ECurrencies.REAL_MONNEY);
+                    return new CAmount((decimal)((pTransaction.Quantity * GetQuote()) * (1 - GetCommissionRate(pTransaction.Quantity))), ECurrencies.REAL_MONNEY);
             }
         }
         #endregion

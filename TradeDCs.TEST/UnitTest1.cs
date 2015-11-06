@@ -72,11 +72,11 @@ namespace TradeDCs.TEST
                 TransactionType = ETransactionType.SELLS
             };
             CTransactionsInvoice transacExec5 = CServer.ExecuteTransaction(transac5);
-            Assert.AreEqual(124.64M, transacExec5.TotalRealMonneyExchanged.Amount);
-            //TODO : Change assertion if commission rule changed
+            //Assert.AreEqual(124.64M, transacExec5.TotalRealMonneyExchanged.Amount);
+            //TODO : Change assertions if commission rule changed in the case where client sells Digicoins
             //Broker1 : 80 DIGICOINS * 1.49 = 119.20 'REAL_MONNEY', Removal of commission of 5% : 119.20 * 0.95 = 113.24 'REAL_MONNEY'
             //Broker2 : 80 DIGICOINS * 1.52 = 121.60 'REAL_MONNEY', Removal of commission of 2.5% : 121.60 * 0.975 = 118.56 'REAL_MONNEY' => best choice
-            //Assert.AreEqual(118.56M, transacExec5.TotalRealMonneyExchnged.Amount);
+            Assert.AreEqual(118.56M, transacExec5.TotalRealMonneyExchanged.Amount);
 
             //6)
             CTransaction transac6 = new CTransaction
@@ -86,8 +86,8 @@ namespace TradeDCs.TEST
                 TransactionType = ETransactionType.SELLS
             };
             CTransactionsInvoice transacExec6 = CServer.ExecuteTransaction(transac6);
-            Assert.AreEqual(109.06M, transacExec6.TotalRealMonneyExchanged.Amount);
-            //Assert.AreEqual(103.74M, transacExec6.TotalRealMonneyExchnged.Amount);
+            //Assert.AreEqual(109.06M, transacExec6.TotalRealMonneyExchanged.Amount);
+            Assert.AreEqual(103.74M, transacExec6.TotalRealMonneyExchanged.Amount);
 
             //7)
             CTransaction transac7 = new CTransaction
@@ -107,16 +107,17 @@ namespace TradeDCs.TEST
                 TransactionType = ETransactionType.SELLS
             };
             CTransactionsInvoice transacExec8 = CServer.ExecuteTransaction(transac8);
-            Assert.AreEqual(93.48M, transacExec8.TotalRealMonneyExchanged.Amount);
-            //Assert.AreEqual(88.92M, transacExec8.TotalRealMonneyExchnged.Amount);
+            //Assert.AreEqual(93.48M, transacExec8.TotalRealMonneyExchanged.Amount);
+            Assert.AreEqual(88.92M, transacExec8.TotalRealMonneyExchanged.Amount);
 
             //9)
+            //TODO : Selling commission rule changes the net position of client
             //Assert.AreEqual(296.56M, clientA.NetPosition);
             //Assert.AreEqual(0M, clientB.NetPosition);
             //Assert.AreEqual(-109.06M, clientC.NetPosition);
             Assert.AreEqual(295.520M, clientA.NetPosition);
-            Assert.AreEqual(-0.5M, clientB.NetPosition);
-            Assert.AreEqual(-109.06M, clientC.NetPosition);
+            Assert.AreEqual(10.14, clientB.NetPosition);
+            Assert.AreEqual(-103.74, clientC.NetPosition);
 
             //10)
             Assert.AreEqual(80M, broker1.DigicoinsProcessed.Amount);

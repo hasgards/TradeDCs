@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TradeDCs.BO
 {
@@ -50,6 +47,9 @@ namespace TradeDCs.BO
                 }
 
                 //TODO : Calulating average and multiplicating buy the number of transactions is the same as summing all transactions ... 
+                //client_net_position = (sum_of_transactions / number_of_transactions) * number_of_transactions
+                //client_net_position = sum_of_transactions
+
                 return sumOfPriceOfTransactions;
             }
         }
