@@ -116,7 +116,7 @@ namespace TradeDCs.TEST
             //Assert.AreEqual(0M, clientB.NetPosition);
             //Assert.AreEqual(-109.06M, clientC.NetPosition);
             Assert.AreEqual(295.520M, clientA.NetPosition);
-            Assert.AreEqual(10.14, clientB.NetPosition);
+            Assert.AreEqual(10.14M, clientB.NetPosition);
             Assert.AreEqual(-103.74, clientC.NetPosition);
 
             //10)
